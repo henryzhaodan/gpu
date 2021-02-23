@@ -1,4 +1,5 @@
-FROM nvcr.io/nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
+FROM nvidia/cuda:11.2.0-base-ubuntu18.04
+# FROM nvcr.io/nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
 # FROM nvcr.io/nvidia/tensorrt:20.09-py3
 
 ARG OPENCV_VERSION=4.5.0
