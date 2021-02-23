@@ -1,5 +1,6 @@
 FROM nvidia/cuda:11.2.0-base-ubuntu18.04
 
+RUN apt-get install python3-pip
 COPY requirements.txt /
 
 RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ && \
