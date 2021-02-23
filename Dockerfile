@@ -1,6 +1,5 @@
 FROM nvidia/cuda:11.2.0-base-ubuntu18.04
 
-RUN apt-get update
 RUN apt-get install -y python-software-properties
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:deadsnakes/ppa
